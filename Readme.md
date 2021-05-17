@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Nikita Gudakov](https://up.htmlacademy.ru/htmlcss/31/user/1707869).
-* Наставник: `Неизвестно`.
+* Наставник: [Евгений Петров](https://htmlacademy.ru/profile/id617077)
 
 ---
 
