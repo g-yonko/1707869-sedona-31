@@ -2,11 +2,168 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <title>HTML Academy: Седона</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS. Профессиональная вёрстка сайтов</a>».</p>
-
+    <header class="main-header">
+      <img src="##" alt="Логотип Седона" width="138" height="70">
+      <nav>
+       <ul>
+         <li>
+           <a href="blank.html">Информация</a>
+         </li>
+         <li>
+           <a href="blank.html">Фото и видео</a>
+         </li>
+         <li>
+           <a href="blank.html">Карта штата</a>
+         </li>
+         <li>
+           <a href="blank.html">Гостиницы</a>
+         </li>
+       </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h1>Седона — небольшой городок в Аризоне, заслуживающий большего!</h1>
+        <P>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</P>
+        <img src="#" alt="Лого добро пожаловать">
+        <img src="#" alt="Лого Седона">
+        <img src="#" alt="Задний план с видом на каньон">
+      </section>
+      <!--Я решил преимущества разметить как одну секцию, потому что по смыслу там идет перечисление преимуществ №1, №2, итд, а между ними списки, я правильно сделал?-->
+      <section>
+        <h2>Причины посетить Седону</h2>
+        <P>настоящий городок</P>
+        <p>- №1 -</p>
+        <p>седона — не аттракцион для туристов, там
+          течёт своя жизнь</p>
+        <img src="#" alt="Пейзаж города">
+        <ul>
+          <li>
+            <h3>Жилье</h3>
+            <img src="#" alt="лого дома">
+            <p>рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+          </li>
+          <li>
+            <h3>Еда</h3>
+            <img src="#" alt="лого еды">
+            <p>всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+          </li>
+          <li>
+            <h3>Сувениры</h3>
+            <img src="#" alt="лого подарка">
+            <p>не только китайского, но и местного
+              производства!</p>
+          </li>
+        </ul>
+        <img src="#" alt="Пейзаж мост дьявола">
+        <p>там есть мост дьявола</p>
+        <p>- №2 -</p>
+        <p>да, по нему можно пройти! Если конечно
+          вы осмелитесь</p>
+        <ul>
+          <li>
+            <p>небольшая площадь</p>
+            <p>- №3 -</p>
+            <p>все достопримечательности находятся очень близко</p>
+          </li>
+          <li>
+            <p>красивая дорога</p>
+            <p>- №4 -</p>
+            <p>ехать в седону из лас-вегаса совсем не скучно </p>
+          </li>
+          <li>
+            <p>мало туристов</p>
+            <p>- №5 -</p>
+            <p>большинство едет в гранд каньон и толпится там</p>
+          </li>
+        </ul>
+      </section>
+      <!-- Не совсем уверен в верстке формы...-->
+      <section>
+        <h2>Форма для бронирования</h2>
+        <p>заинтересовались?</p>
+        <p>укажите предполагаемые даты поездки,<br>
+           и мы покажем вам лучшие предложения гостиниц в седоне</p>
+        <button>поиск гостиницы в седоне</button>
+        <form action="https://echo.htmlacademy.ru" method="post"></form>
+          <p>  
+            <label for="date-of-arrival">Дата заезда</label>
+              <input type="text" name="arrival-input" id="date-of-arrival" placeholder="24 Апреля 2017">
+              <button type="button">
+               <span>выбрать дату</span>
+               <img src="#" alt="лого выбора даты">
+             </button>
+          </p>
+          <p>
+            <label for="date-of-departure">Дата выезда</label>
+            <input type="text" name="departure-input" id="date-of-departure" placeholder="4 Июля 2017">
+            <button type="button">
+              <span>выбрать дату</span>
+              <img src="#" alt="лого выбора даты">
+           </button>
+          </p>
+          <p>
+            <label for="adult">Взрослые:</label>
+              <button type="button" id="Adult-minus">
+                <span>Уменьшить количество взрослых</span>
+             </button>
+            <input type="number" min="1" max="10" name="adult" value="2" id="adult">
+             <button type="button" id="Adult-plus">
+                <span>Увеличить количество взрослых</span>
+              </button>
+          </p>
+          <p>
+            <label for="children">Дети:</label>
+             <button type="button" id="Adult-minus">
+                <span>Уменьшить количество детей</span>
+             </button>
+           <input type="number" min="1" max="10" name="children" value="0" id="children">
+             <button type="button" id="Adult-plus">
+               <span>Увеличить количество детей</span>
+             </button>
+          </p>
+          <button type="submit">Найти</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <h2>Как нас найти</h2>
+      <div>map</div>
+      <section>
+        <p>#visitsedona</p>
+        <a href="tel: +8005558628">+7 800 555-86-28</a>
+      </section>
+      <section>
+        <ul>
+          <li>
+            <a href="https://twitter.com">
+              <img src="#" alt="Лого твиттер">
+            </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com">
+              <img src="#" alt="Лого фейсбук">
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com">
+              <img src="#" alt="Лого ютуб">
+            </a>
+          </li>
+        </ul>
+      </section>
+    <div>
+      <p>website by</p>
+      <a href="https://htmlacademy.ru">
+        <img src="#" alt="Лого HTML Academy">
+      </a>
+    </div>
+    </footer>
   </body>
 </html>
+ 

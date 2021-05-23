@@ -26,7 +26,7 @@ _`.editorconfig`, `.gitattributes`, `.gitignore`, `Contributing.md`, `Readme.md`
 
 <img width="769" alt="" src="https://user-images.githubusercontent.com/10909/29037953-6a8a7384-7bae-11e7-83ac-59603b1d696c.jpg">
 
-#### 3. Клонируйте репозиторий на свой компьютер
+#### 3. Клонируйте репозиторий на свой компьютер  
 
 Будьте внимательны: нужно клонировать свой репозиторий (форк), а не репозиторий Академии. Нажмите кнопку «Clone or download», а затем «Open in Desktop», чтобы клонировать репозиторий через программу [GitHub Desktop](https://desktop.github.com):
 
